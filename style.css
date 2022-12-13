@@ -1,0 +1,303 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.head{
+  width: 100%;
+  height: 100px;
+  background-color:tomato;
+}
+.h1{
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 8px;
+  width: 15%;
+}
+.logo{
+  height: 80px;
+  width: 100%;
+}
+.h2{
+  position: absolute;
+  margin-top: 0;
+  left:34%;
+  top:25px;
+}
+.tittle{
+  margin: 0;
+  font-size: 40px;
+  font-weight:900;
+  font-family: sans-serif;
+}
+.h3{
+  position: absolute;
+  right: 4%;
+  top: 30px;
+}
+.h3 a{
+  text-decoration: none;
+}
+.btn {
+  -webkit-border-radius: 29;
+  -moz-border-radius: 29;
+  border-radius: 29px;
+  font-family: Georgia;
+  color: #fff;
+  font-size: 20px;
+  background: #3498db;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background:black;
+  text-decoration: none;
+}
+.frontpic{
+  width: 100%;
+  height: 400px;
+  margin-top: 5px;
+}
+.searchpic{
+  width: 100%;
+  height: 400px;
+  margin-top: 5px;
+  position: absolute;
+}
+.pic1{
+  width: 100%;
+  height: 400px;
+}
+.search{
+  width:40%;
+  height: 60px;
+  background-color:black;
+  position:relative;
+  left: 30%;
+  top: 40%;
+  text-align: center;
+  border-radius: 20px 20px 20px 20px;
+}
+.searchbar{
+  width:100%;
+  height: 60px;
+  border-radius: 20px;
+}
+input{
+  width: 82.7%;
+  height: 55px;
+  float: left;
+  margin: 0;
+  border-radius: 20px 0 0 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.searchbar button{
+  width: 15%;
+  height: 60px;
+  float: right;
+  border-radius: 0 20px 20px 0;
+  padding: 0;
+  margin: 0;
+}
+.fa-solid{
+  color: black;
+  font-size: 30px;
+}
+.text{
+  width: 80%;
+  height: 60px;
+  position: absolute;
+  left: 10%;
+  text-align: center;
+}
+.text1{
+  margin: 0;
+  font-size: 60px;
+  font-weight: bolder;
+  font-family: serif;
+  color: red;
+}
+.heading3{
+  width: 100%;
+  height: 70px;
+}
+.f1{
+  text-align: center;
+  font-size: 30px;
+  font-weight:bold;
+  color: #003ee8;
+  position: relative;
+  top:10px;
+}
+hr{
+  color: black;
+  width: 20%;
+  height: 3px;
+  margin-top: 10px;
+  background-color: black;
+}
+.container{
+  background-color: #fff;
+  height: 5000px;
+  width:100%;
+  margin:0;
+}
+.comd{
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  position: absolute;
+  left: 9%;
+}
+.box1{
+  background-color: #ffffff;
+  height: 205px;
+  width: 200px;
+  margin:20px;
+  border-radius: 20px;
+
+}
+.box1{
+  box-shadow: -3px -3px 7px  rgba(94, 104, 121, 0.698) , 3px 3px 5px rgba(94, 104, 121, 0.698);
+}
+.container ul{
+  list-style: none;
+}
+.logos{
+  width: 180px;
+  height: 90px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.comname{
+  width: 200px;
+  height:90px;
+  text-align: center;
+}
+.box1 a{
+  text-decoration: none;
+}
+.name{
+  color: #0b5bdb;
+  font-size: 25px;
+  font-weight: bold;
+}
+.name1{
+  color:black;
+  font-size: 25px;
+  font-weight:bold;
+}
+.container hr{
+  color: black;
+  width: 20%;
+  height: 3px;
+  background-color: black;
+  position: absolute;
+  top:5530px;
+  left:39%;
+}
+.last{
+  background-color: blue;
+  width: 100%;
+  height: 280px;
+}
+.last ul{
+  list-style: none;
+  position: absolute;
+  padding-left: 170px;
+  padding-top: 30px;
+}
+.lasthead{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.lasthead li{
+  margin-right:200px;
+  margin-bottom: 50px;
+}
+.lasthead li a p{
+font-size: 40px;
+font-weight: 600;
+color: #ffff
+}
+.lasthead li a{
+  text-decoration: none;
+}
+.bx{
+  color: black;
+  width: 50px;
+  height: 50px;
+}
+.fa-brands{
+  color:white;
+  font-size: 70px;
+}
+.fa-regular{
+  font-size:70px;
+  color: #ffff
+}
+/* page 1 about */
+
+.p1head{
+  width: 100%;
+  height: 80px;
+  background-color: green;
+}
+.top{
+  position: absolute;
+  font-size: 40px;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+  left:39%;
+  top:14px;
+  color: black;
+}
+.p2head{
+  width: 100%;
+  height: 450px;
+  margin-top: 20px;
+}
+.profile{
+  width: 40%;
+  height: 400px;
+  margin-left:20px;
+}
+.propic{
+  width: 100%;
+  height: 400px;
+}
+.tb{
+  position: absolute;
+  left: 45%;
+  top:10%;
+  font-size:40px;
+  font-weight: bold;
+  font-family: sans-serif;
+  line-height: 60px;
+}
+.p3head{
+  width: 100%;
+  height: 1000px;
+}
+.qual{
+  width: 95%;
+  height:900px;
+  position: absolute;
+  padding-left:40px;
+}
+.q{
+  font-size: 45px;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: blue;
+}
+.qual p{
+  font-size: 40px;
+  font-weight: bold;
+}
